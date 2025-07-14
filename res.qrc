@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/cam.png</file>
+        <file>images/cam2.png</file>
+        <file>images/files.png</file>
+        <file>images/pause.png</file>
+        <file>images/play.png</file>
+        <file>images/video.png</file>
+        <file>images/YOLO.png</file>
+        <file>images/image.png</file>
+        <file>images/clear.png</file>
+        <file>images/iou.png</file>
+        <file>images/thresh.png</file>
+    </qresource>
+</RCC>
