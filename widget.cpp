@@ -81,6 +81,7 @@ Widget::Widget(QWidget *parent)
     ui->btnVideoDetect->setEnabled(true);
     ui->btnStartDetect->setEnabled(false);
     ui->btnStopDetect->setEnabled(false);
+    ui->btnSaveResult->setEnabled(false);
 }
 
 Widget::~Widget()
@@ -138,6 +139,8 @@ void Widget::on_btnImageDetect_clicked()
 
     // 开始推理
     detectAndDisplay();
+
+    ui->btnSaveResult->setEnabled(true);
 }
 
 QImage Widget::cvMatToQImage(const cv::Mat &inMat)
@@ -731,6 +734,8 @@ void Widget::on_btnVideoDetect_clicked()
 
 void Widget::on_btnStartDetect_clicked()
 {
+    ui->btnSaveResult->setEnabled(false);
+
     if (currentDetectionMode == DetectionMode::Camera) {
         // 摄像头模式
         if (!isCamRunning) {
