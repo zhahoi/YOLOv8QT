@@ -26,25 +26,25 @@
 
 ### UI界面功能面板
 
-![ui](C:\GithubCode\YOLOv8QT\docs\ui.png)
+![ui](https://github.com/zhahoi/YOLOv8QT/blob/main/docs/ui.png)
 
 
 
 ### 图像检测
 
-![image_detect](C:\GithubCode\YOLOv8QT\docs\image_detect.png)
+![image_detect](https://github.com/zhahoi/YOLOv8QT/blob/main/docs/image_detect.png)
 
 
 
 ### 视频推理
 
-![video_detect](C:\GithubCode\YOLOv8QT\docs\video_detect.png)
+![video_detect](https://github.com/zhahoi/YOLOv8QT/blob/main/docs/video_detect.png)
 
 
 
 ### 摄像头推理
 
-![cam_detect](C:\GithubCode\YOLOv8QT\docs\cam_detect.png)
+![cam_detect](https://github.com/zhahoi/YOLOv8QT/blob/main/docs/cam_detect.png)
 
 
 
